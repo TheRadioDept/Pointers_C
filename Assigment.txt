@@ -1,0 +1,14 @@
+Write a program that creates a 3 by 4 arrays of integers using static declaration and content at initialization. The program should provide the following services:
+
+    1. print the array in tabular form using a function printMat(). 
+    2. Print a menu using a function printMenu().
+The menu should print the following text and options:
+
+This program provides the following matrix manipulation services:
+    1. Print the matrix in tabular form
+    2. Print a specific row or a number of rows in sequence (using a function printRow())
+    3. Print a specific column or a number of columns in sequence (using a function printCol())
+    4. Get the elements of a specific row reversed (using a function reverseRow()), then print the matrix to check.
+    5. Find the number of prime numbers in a specific row (using a function findRowPrimes())
+    6. Quit
+After each service rendered the user if given the chance to either continue with another service or quit.
